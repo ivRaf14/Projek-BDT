@@ -7,7 +7,3 @@ CREATE TABLE gerbong(
 	jumlah_kursi INT NOT NULL,
 	FOREIGN KEY (id_kereta) REFERENCES kereta_api(id_kereta)
 );
-
-INSERT INTO gerbong (id_kereta, nomor_kursi, nomor_gerbong, jumlah_kursi) VALUES ('ARJ1011', 'C3', 'G1', 50);
-
-SELECT * from gerbong;
