@@ -1,7 +1,7 @@
 USE base;
 
 CREATE TABLE pembayaran(
-	id_tiket INT NOT NULL primary key AUTO_INCREMENT,
+	id_tiket INT NOT NULL primary key,
 	kode_pembayaran VARCHAR(255) NOT NULL,
 	metode_pembayaran VARCHAR(255) NOT NULL
 );
