@@ -10,8 +10,8 @@ CREATE TABLE tiket(
 	tujuan VARCHAR(255) NOT NULL
 );
 
-INSERT INTO tiket (id_tiket, id_kelas, harga, no_kursi, waktu_keberangkatan, asal, tujuan) VALUES (0115, 01, 30000, 11, 14:00, 'Kota Baru','Gubeng');
-INSERT INTO tiket (id_tiket, id_kelas, harga, no_kursi, waktu_keberangkatan, asal, tujuan) VALUES (0117, 01, 45000, 12, 14:30, 'Kota Lama', 'Kediri');
-INSERT INTO tiket (id_tiket, id_kelas, harga, no_kursi, waktu_keberangkatan, asal, tujuan) VALUES (0114, 02, 60000, 13, 15:00,'Blimbing', 'Kediri');
+INSERT INTO tiket (id_tiket, id_kelas, harga, no_kursi, waktu_keberangkatan, asal, tujuan) VALUES (0115, 01, 30000, 11, '14:00', 'Kota Baru','Gubeng');
+INSERT INTO tiket (id_tiket, id_kelas, harga, no_kursi, waktu_keberangkatan, asal, tujuan) VALUES (0117, 01, 45000, 12, '14:30', 'Kota Lama', 'Kediri');
+INSERT INTO tiket (id_tiket, id_kelas, harga, no_kursi, waktu_keberangkatan, asal, tujuan) VALUES (0114, 02, 60000, 13, '15:00','Blimbing', 'Kediri');
 
 select * from tiket;
