@@ -1,4 +1,4 @@
-USE project;
+USE base;
 
 CREATE TABLE penumpang(
 	id INT NOT NULL primary key AUTO_INCREMENT,
