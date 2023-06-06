@@ -11,9 +11,9 @@ CREATE TABLE penumpang(
 	
 );
 
-INSERT INTO penumpang (nama, email, PASSWORD, no_telepon, umur, gender) VALUES ('azkan', 'azkan14@gmail.com', 'azkan123', '0895374743434', 15, 'Pria');
+INSERT INTO penumpang (nama, email, PASSWORD, no_telepon, umur, gender) VALUES ('azkan', 'azkan@gmail.com', 'azkan123', '0835374743434', 15, 'Pria');
 INSERT INTO penumpang (nama, email, PASSWORD, no_telepon, umur, gender) VALUES ('ivan', 'ivaraf@gmail.com', 'ivan123', '0895374743434', 18, 'Pria');
-INSERT INTO penumpang (nama, email, PASSWORD, no_telepon, umur, gender) VALUES ('firman', 'azkan14@gmail.com', 'azkan123', '0895374743434', 20, 'Pria');
+INSERT INTO penumpang (nama, email, PASSWORD, no_telepon, umur, gender) VALUES ('firman', 'firman@gmail.com', 'azkan123', '0815374743434', 20, 'Pria');
 
 
 
