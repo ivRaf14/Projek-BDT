@@ -1,3 +1,5 @@
+use base;
+
 INSERT INTO gerbong (id_kereta, nomor_kursi, nomor_gerbong, jumlah_kursi) 
 VALUES	('ARJ1011', 'C3', 'G1', 50),
 	('SRG2022', 'A1', 'G2', 40),
