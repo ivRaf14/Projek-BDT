@@ -5,7 +5,7 @@ CREATE TABLE tiket(
 	id_kelas INT NOT NULL,
 	harga INT NOT NULL,
 	no_kursi INT NOT NULL,
-	waktu_keberangkatan INT NOT NULL,
+	waktu_keberangkatan VARCHAR(255) NOT NULL,
 	asal VARCHAR(255) NOT NULL,	
 	tujuan VARCHAR(255) NOT NULL
 );
