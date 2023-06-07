@@ -1,5 +1,7 @@
 USE base;
 
+
+
 CREATE TABLE gerbong(
 	id_kereta VARCHAR(255) NOT NULL,
 	nomor_kursi VARCHAR(255) NOT NULL,	

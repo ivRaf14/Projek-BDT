@@ -1,5 +1,6 @@
 USE base;
 
+
 CREATE TABLE penumpang(
 	id INT NOT NULL primary key AUTO_INCREMENT,
 	nama VARCHAR(255) NOT NULL,
