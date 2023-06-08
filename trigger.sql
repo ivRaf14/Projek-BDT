@@ -13,10 +13,10 @@ END $$
 DELIMITER ;
 
 update tiket
-set harga = (harga-10);
+set harga = (harga-10000);
 
 select * from tiket, gerbong
-ORDER BY jumlah_kursi;
+ORDER BY jumlah_kursi, harga;
 
 
 
