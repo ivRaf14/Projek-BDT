@@ -1,7 +1,6 @@
 USE base;
 
 
-
 CREATE TABLE kereta_api(
 	id_kereta VARCHAR(255) NOT NULL primary key,
 	nama VARCHAR(255) NOT NULL,
